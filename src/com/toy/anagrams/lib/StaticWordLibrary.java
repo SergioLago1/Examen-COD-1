@@ -38,7 +38,7 @@ package com.toy.anagrams.lib;
  * Implementation of the logic for the Anagram Game application.
  */
 final class StaticWordLibrary extends WordLibrary {
-
+int examen;
     private static final String[] WORD_LIST = {
         
         "backslash",
@@ -148,7 +148,7 @@ final class StaticWordLibrary extends WordLibrary {
     public String getWord(int idx) {
         return WORD_LIST[idx];
     }
-
+    //*Comentario para Commit en getWorld
     /**
      * Gets the word at a given index in its scrambled form.
      * @param idx index of required word
